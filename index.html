@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Floorplan to GeoJSON</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="app-title">Floorplan to GeoJSON App</h1>
+
+  <div id="instructions">
+  <p id="howtouse">How to use</p>
+  <p>1. Upload a floor plan</p>
+  <p>2. Click on Process button</p>
+  <p>3. Click on GeoJSON Coordinates button to download a file with the GeoJSON coordinates of the floor plan </p>
+  </div><br><br>
+  
+  <input type="file" id="fileInput" accept="image/*"><br><br>
+  <button id="processBtn">Process</button>
+  <button id="downloadBtn">GeoJSON Coordinates</button>
+
+  <div id="map"></div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script async src="https://docs.opencv.org/4.5.5/opencv.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

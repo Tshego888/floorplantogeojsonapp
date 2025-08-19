@@ -1,0 +1,44 @@
+#map { 
+  height: 500px; 
+  margin-top: 10px; 
+}
+
+body { 
+  background-color: rgb(199, 255, 255);
+  font-family: sans-serif; 
+  padding: 20px; 
+}
+
+#instructions {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#instructions #howtouse {
+  color: rgb(0, 16, 233);
+  font-size: 34px;
+}
+
+#processBtn {
+  height: 35px;
+  width: 70px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(126, 0, 216);
+}
+
+#downloadBtn {
+  height: 35px;
+  width: 150px;
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(126, 0, 216);
+}
+
+canvas { 
+  display: none; 
+}
